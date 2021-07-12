@@ -13,7 +13,7 @@ struct WeightTrackerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WeightView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

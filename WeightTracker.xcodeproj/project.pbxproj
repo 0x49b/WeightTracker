@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17146553269C809400DEEF1A /* WeightListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17146552269C809400DEEF1A /* WeightListRow.swift */; };
+		17146555269C8E8500DEEF1A /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17146554269C8E8500DEEF1A /* LineView.swift */; };
+		17146557269C8EC700DEEF1A /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17146556269C8EC700DEEF1A /* Line.swift */; };
+		17146559269CCC5100DEEF1A /* LineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17146558269CCC5100DEEF1A /* LineCardView.swift */; };
 		1731728E269C3405004769B9 /* WeightTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731728D269C3405004769B9 /* WeightTrackerApp.swift */; };
 		17317290269C3405004769B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731728F269C3405004769B9 /* ContentView.swift */; };
 		17317292269C3407004769B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17317291269C3407004769B9 /* Assets.xcassets */; };
 		17317295269C3407004769B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17317294269C3407004769B9 /* Preview Assets.xcassets */; };
 		17317297269C3407004769B9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17317296269C3407004769B9 /* Persistence.swift */; };
 		1731729A269C3407004769B9 /* WeightTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17317298269C3407004769B9 /* WeightTracker.xcdatamodeld */; };
+		173172A2269C3510004769B9 /* WeightItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173172A1269C3510004769B9 /* WeightItem.swift */; };
+		173172A6269C3807004769B9 /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173172A5269C3807004769B9 /* WeightView.swift */; };
+		173172A8269C38E5004769B9 /* NewWeightItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173172A7269C38E5004769B9 /* NewWeightItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17146552269C809400DEEF1A /* WeightListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightListRow.swift; sourceTree = "<group>"; };
+		17146554269C8E8500DEEF1A /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		17146556269C8EC700DEEF1A /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		17146558269CCC5100DEEF1A /* LineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCardView.swift; sourceTree = "<group>"; };
 		1731728A269C3405004769B9 /* WeightTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1731728D269C3405004769B9 /* WeightTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackerApp.swift; sourceTree = "<group>"; };
 		1731728F269C3405004769B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +35,9 @@
 		17317296269C3407004769B9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		17317299269C3407004769B9 /* WeightTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeightTracker.xcdatamodel; sourceTree = "<group>"; };
 		1731729B269C3407004769B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173172A1269C3510004769B9 /* WeightItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightItem.swift; sourceTree = "<group>"; };
+		173172A5269C3807004769B9 /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
+		173172A7269C38E5004769B9 /* NewWeightItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWeightItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +70,11 @@
 		1731728C269C3405004769B9 /* WeightTracker */ = {
 			isa = PBXGroup;
 			children = (
-				1731728D269C3405004769B9 /* WeightTrackerApp.swift */,
-				1731728F269C3405004769B9 /* ContentView.swift */,
+				173172A4269C37F0004769B9 /* view */,
+				173172A3269C37E2004769B9 /* model */,
 				17317291269C3407004769B9 /* Assets.xcassets */,
-				17317296269C3407004769B9 /* Persistence.swift */,
 				1731729B269C3407004769B9 /* Info.plist */,
+				1731728D269C3405004769B9 /* WeightTrackerApp.swift */,
 				17317298269C3407004769B9 /* WeightTracker.xcdatamodeld */,
 				17317293269C3407004769B9 /* Preview Content */,
 			);
@@ -73,6 +87,29 @@
 				17317294269C3407004769B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		173172A3269C37E2004769B9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				173172A1269C3510004769B9 /* WeightItem.swift */,
+				17317296269C3407004769B9 /* Persistence.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		173172A4269C37F0004769B9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1731728F269C3405004769B9 /* ContentView.swift */,
+				173172A5269C3807004769B9 /* WeightView.swift */,
+				17146558269CCC5100DEEF1A /* LineCardView.swift */,
+				17146554269C8E8500DEEF1A /* LineView.swift */,
+				17146556269C8EC700DEEF1A /* Line.swift */,
+				173172A7269C38E5004769B9 /* NewWeightItem.swift */,
+				17146552269C809400DEEF1A /* WeightListRow.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173172A6269C3807004769B9 /* WeightView.swift in Sources */,
 				17317297269C3407004769B9 /* Persistence.swift in Sources */,
+				17146553269C809400DEEF1A /* WeightListRow.swift in Sources */,
 				17317290269C3405004769B9 /* ContentView.swift in Sources */,
+				173172A8269C38E5004769B9 /* NewWeightItem.swift in Sources */,
+				17146559269CCC5100DEEF1A /* LineCardView.swift in Sources */,
+				17146555269C8E8500DEEF1A /* LineView.swift in Sources */,
 				1731729A269C3407004769B9 /* WeightTracker.xcdatamodeld in Sources */,
 				1731728E269C3405004769B9 /* WeightTrackerApp.swift in Sources */,
+				173172A2269C3510004769B9 /* WeightItem.swift in Sources */,
+				17146557269C8EC700DEEF1A /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.thievent.WeightTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.thievent.WeightTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
